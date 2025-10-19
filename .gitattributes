@@ -1,0 +1,47 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Explicitly declare text files you want to always be normalized and converted
+# to native line endings on checkout
+*.md text
+*.txt text
+*.json text
+*.yml text
+*.yaml text
+
+# Declare files that will always have LF line endings on checkout
+*.sh text eol=lf
+
+# Denote all files that are truly binary and should not be modified
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+
+# Source code files - ensure UTF-8 encoding
+*.py text working-tree-encoding=UTF-8
+*.rs text working-tree-encoding=UTF-8
+*.go text working-tree-encoding=UTF-8
+*.js text working-tree-encoding=UTF-8
+*.ts text working-tree-encoding=UTF-8
+*.jsx text working-tree-encoding=UTF-8
+*.tsx text working-tree-encoding=UTF-8
+*.cs text working-tree-encoding=UTF-8
+*.java text working-tree-encoding=UTF-8
+*.c text working-tree-encoding=UTF-8
+*.cpp text working-tree-encoding=UTF-8
+*.h text working-tree-encoding=UTF-8
+*.hpp text working-tree-encoding=UTF-8
+
+# Configuration files
+*.toml text working-tree-encoding=UTF-8
+*.ini text working-tree-encoding=UTF-8
+*.cfg text working-tree-encoding=UTF-8
+*.conf text working-tree-encoding=UTF-8
+
+# Documentation
+*.md text working-tree-encoding=UTF-8
+*.rst text working-tree-encoding=UTF-8
+*.adoc text working-tree-encoding=UTF-8
