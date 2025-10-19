@@ -213,9 +213,10 @@ const nfkd = text.normalize('NFKD'); // Compatibility decomposed
 
 **TypeScript Type Definitions**:
 ```typescript
-type NormalizationForm = 'NFC' | 'NFD' | 'NFKC' | 'NFKD';
+// Note: NormalizationForm is already defined in TypeScript's DOM lib types
+// This is shown for illustration purposes
 
-function normalizeText(text: string, form: NormalizationForm = 'NFC'): string {
+function normalizeText(text: string, form: 'NFC' | 'NFD' | 'NFKC' | 'NFKD' = 'NFC'): string {
     return text.normalize(form);
 }
 
