@@ -213,8 +213,8 @@ const nfkd = text.normalize('NFKD'); // Compatibility decomposed
 
 **TypeScript Type Definitions**:
 ```typescript
-// Note: NormalizationForm is already defined in TypeScript's DOM lib types
-// This is shown for illustration purposes
+// Note: String.prototype.normalize() is available in ES2015+
+// The inline union type is used here for clarity and compatibility across all TypeScript environments
 
 function normalizeText(text: string, form: 'NFC' | 'NFD' | 'NFKC' | 'NFKD' = 'NFC'): string {
     return text.normalize(form);
