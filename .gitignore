@@ -426,3 +426,6 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+# TypeScript build output
+TypeScriptAliases/dist/
+TypeScriptAliases/package-lock.json
