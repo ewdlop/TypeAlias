@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="DirectivaDeAlias.cs" />
     <Compile Remove="EspañolDirectivaAlias.cs" />
   </ItemGroup>
 

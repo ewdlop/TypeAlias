@@ -1,4 +1,4 @@
-using cadena = System.String;
+﻿using cadena = System.String;
 using entero32 = System.Int32;
 using entero64 = System.Int64;
 using flotante = System.Single;
@@ -11,7 +11,7 @@ using carácter = System.Char;
 using byte = System.Byte;
 #endif
 
-using arregloByte = System.Byte[];
+using arregloByte = byte[];
 using flujoMemoria = System.IO.MemoryStream;
 using lectorBinario = System.IO.BinaryReader;
 using escritorBinario = System.IO.BinaryWriter;
@@ -102,4 +102,21 @@ using criptografía = System.Security.Cryptography;
 using codificación = System.Text.Encoding;
 using configuración = System.Configuration;
 using registro = System.Diagnostics.Debug;
-
+namespace AliasDirective.spa
+{
+    public static class ExtensiónDeCadena
+    {
+        public static cadena? MayúsculaInicial(this cadena cadena)
+        {
+            if (!string.IsNullOrWhiteSpace(cadena))
+            {
+                return cadena;
+            }
+            if (cadena.Length == 1)
+            {
+                return cadena.ToUpper();
+            }
+            return char.ToUpper(cadena[0]) + cadena.Substring(1);
+        }
+    }
+}

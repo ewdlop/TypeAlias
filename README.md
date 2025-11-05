@@ -86,6 +86,8 @@ consola.WriteLine($"Nombre: {nombre}, Edad: {edad}");
 
 Reference: https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes
 
+> https://en.wikipedia.org/wiki/IETF_language_tag
+
 ---
 
 ## Contributing / 貢獻 / Contribuir
