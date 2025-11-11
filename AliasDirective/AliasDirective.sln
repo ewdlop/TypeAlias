@@ -13,6 +13,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectivaDeAlias", "..\Dire
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "使用別名", "..\使用別名\使用別名.csproj", "{4FC9060D-174A-4DBD-8B07-86F6E83DF0AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AliasDirective.Aspire.AppHost", "..\AliasDirective.Aspire\AliasDirective.Aspire.AppHost\AliasDirective.Aspire.AppHost.csproj", "{2462C19E-0AEC-4FE6-8423-F257A9F44966}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AliasDirective.Aspire.ServiceDefaults", "..\AliasDirective.Aspire\AliasDirective.Aspire.ServiceDefaults\AliasDirective.Aspire.ServiceDefaults.csproj", "{A8DCFF5D-BD2B-8C2D-D5A0-55E4B95FB9FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AliasDirective.Aspire.ApiService", "..\AliasDirective.Aspire\AliasDirective.Aspire.ApiService\AliasDirective.Aspire.ApiService.csproj", "{0A75F228-2A91-0EA2-082A-8CDC60ABDA39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AliasDirective.Aspire.Web", "..\AliasDirective.Aspire\AliasDirective.Aspire.Web\AliasDirective.Aspire.Web.csproj", "{934037D6-784A-3DAF-1A75-ECE579673ED7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AliasDirective.Shared", "..\AliasDirective.Shared\AliasDirective.Shared.csproj", "{C9E035DC-14C6-471E-AD3C-D6939B54FEB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +49,26 @@ Global
 		{4FC9060D-174A-4DBD-8B07-86F6E83DF0AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FC9060D-174A-4DBD-8B07-86F6E83DF0AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FC9060D-174A-4DBD-8B07-86F6E83DF0AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2462C19E-0AEC-4FE6-8423-F257A9F44966}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2462C19E-0AEC-4FE6-8423-F257A9F44966}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2462C19E-0AEC-4FE6-8423-F257A9F44966}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2462C19E-0AEC-4FE6-8423-F257A9F44966}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8DCFF5D-BD2B-8C2D-D5A0-55E4B95FB9FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8DCFF5D-BD2B-8C2D-D5A0-55E4B95FB9FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8DCFF5D-BD2B-8C2D-D5A0-55E4B95FB9FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8DCFF5D-BD2B-8C2D-D5A0-55E4B95FB9FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A75F228-2A91-0EA2-082A-8CDC60ABDA39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A75F228-2A91-0EA2-082A-8CDC60ABDA39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A75F228-2A91-0EA2-082A-8CDC60ABDA39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A75F228-2A91-0EA2-082A-8CDC60ABDA39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{934037D6-784A-3DAF-1A75-ECE579673ED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{934037D6-784A-3DAF-1A75-ECE579673ED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{934037D6-784A-3DAF-1A75-ECE579673ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{934037D6-784A-3DAF-1A75-ECE579673ED7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9E035DC-14C6-471E-AD3C-D6939B54FEB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9E035DC-14C6-471E-AD3C-D6939B54FEB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9E035DC-14C6-471E-AD3C-D6939B54FEB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9E035DC-14C6-471E-AD3C-D6939B54FEB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
