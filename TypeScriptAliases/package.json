@@ -1,0 +1,24 @@
+{
+  "name": "typescript-type-aliases",
+  "version": "1.0.0",
+  "description": "Multilingual TypeScript type aliases providing type names in different languages",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "check": "tsc --noEmit"
+  },
+  "keywords": [
+    "typescript",
+    "type-aliases",
+    "multilingual",
+    "i18n",
+    "chinese",
+    "spanish",
+    "english"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
